@@ -16,7 +16,7 @@ public class AsteroidData {
         y = -asteroidBitmap.getHeight();
         rotationDiff = (float) Math.random() - 0.5f;
         xDiff = (float) (Math.random() - 0.5) * 0.002f;
-        yDiff = (float) (Math.random() * 6) + 1;
+        yDiff = (float) (Math.random() * 6.01) + 1;
     }
 
     /**
